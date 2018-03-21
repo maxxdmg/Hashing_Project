@@ -1,10 +1,10 @@
-build/release/main.o: src/main.cpp include/my_hash.h include/superhero.h \
- include/csv.h include/superhero.h
+build/release/main.o: src/main.cpp src/../include/superhero.h \
+ src/../include/my_hash.h src/../include/superhero.h src/../include/csv.h
 
-include/my_hash.h:
+src/../include/superhero.h:
 
-include/superhero.h:
+src/../include/my_hash.h:
 
-include/csv.h:
+src/../include/superhero.h:
 
-include/superhero.h:
+src/../include/csv.h:

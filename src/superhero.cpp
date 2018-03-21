@@ -5,8 +5,8 @@ const std::string &Superhero::getName() const {
 }
 
 Superhero::Superhero(int page_id, const std::string &name, const std::string &urlslug, const std::string &id,
-					 const std::string &alignment, char eye_color, char hair_color, char sex, const std::string &gsm,
-					 bool alive, int appearances, const std::string &first_appearance, int year) :
+					 const std::string &alignment, std::string eye_color, std::string hair_color, std::string sex, const std::string &gsm,
+					 std::string alive, int appearances, const std::string &first_appearance, int year) :
 		page_id(page_id),
 		name(name),
 		urlslug(urlslug),

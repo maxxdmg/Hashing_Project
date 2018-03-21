@@ -1,7 +1,7 @@
 #include <string>
-#include<iostream>
+#include <iostream>
 #include <fstream>
-#include "../include/
+//#include "../include/"
 #include "../include/superhero.h"
 #include "../include/my_hash.h"
 #include "../include/csv.h"
@@ -9,7 +9,7 @@
 
 int main( int argc, char** argv[] ){
 	my_hash<Superhero> hash1, hash2, hash3;
-    io::CSVReader<3> in("marvel-wikia-data.csv");
+    io::CSVReader<13, io::trim_chars<' '>, io::double_quote_escape<',','"'>> in("../hashing/include/marvel-wikia-data.csv");
     in.read_header(io::ignore_extra_column, "page_id","name","urlslug","ID","ALIGN",
                    "EYE","HAIR","SEX","GSM","ALIVE","APPEARANCES","FIRST APPEARANCE","Year");
 
@@ -18,11 +18,11 @@ int main( int argc, char** argv[] ){
     std::string urlslug;
     std::string id;
     std::string alignment;
-    char eye_color;
-    char hair_color;
-    char sex;
+    std::string eye_color;
+    std::string hair_color;
+    std::string sex;
     std::string gsm;
-    bool alive;
+    std::string alive;
     int appearances;
     std::string first_appearance;
     int year;

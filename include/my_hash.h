@@ -10,13 +10,13 @@ template <typename T>
  * @tparam T
  * @author Santiago Quiroga
  * @author Emilio
- * @author Max
+ * @author Max Toor
  */
 class my_hash{
 public:
 
 	my_hash(){
-		array = std::vector<T>(TABLE_SIZE);
+		array = std::vector<std::vector<T>>(TABLE_SIZE);
 	}
 
 	virtual ~my_hash() {}
@@ -35,7 +35,6 @@ public:
 				break;
 		}
 
-		array[index].insert(array[index].begin(),object);
 		return 1 < array[index].size();
 	}
 

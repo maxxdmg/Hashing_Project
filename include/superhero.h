@@ -12,11 +12,11 @@ class Superhero {
 	std::string urlslug;
 	std::string id;
 	std::string alignment;
-	char eye_color;
-	char hair_color;
-	char sex;
+	std::string eye_color;
+	std::string hair_color;
+	std::string sex;
 	std::string gsm;
-	bool alive;
+	std::string alive;
 	int appearances;
 	std::string first_appearance;
 	int year;
@@ -24,8 +24,8 @@ class Superhero {
 	public:
 
 	Superhero(int page_id, const std::string &name, const std::string &urlslug, const std::string &id,
-			  const std::string &alignment, char eye_color, char hair_color, char sex, const std::string &gsm,
-			  bool alive, int appearances, const std::string &first_appearance, int year);
+			  const std::string &alignment, std::string eye_color, std::string hair_color, std::string sex, const std::string &gsm,
+			  std::string alive, int appearances, const std::string &first_appearance, int year);
 
 	const std::string &getName() const;
 };
