@@ -6,6 +6,36 @@
 
 #IncludeRegexTransform: 
 
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/csv.h
+vector
+-
+string
+-
+cstring
+-
+algorithm
+-
+utility
+-
+cstdio
+-
+exception
+-
+mutex
+-
+thread
+-
+condition_variable
+-
+memory
+-
+cassert
+-
+cerrno
+-
+istream
+-
+
 /Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/my_hash.h
 string
 -
@@ -19,10 +49,16 @@ string
 -
 
 /Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/src/main.cpp
-String
+string
 -
 iostream
 -
+fstream
+-
+../include/superhero.h
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/superhero.h
 ../include/my_hash.h
 /Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/my_hash.h
+../include/csv.h
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/csv.h
 
