@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/cmake-build-debug

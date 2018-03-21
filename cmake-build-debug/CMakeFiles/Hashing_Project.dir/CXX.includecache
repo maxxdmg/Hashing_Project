@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/my_hash.h
+string
+-
+vector
+-
+superhero.h
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/superhero.h
+
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/superhero.h
+string
+-
+
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/src/main.cpp
+String
+-
+iostream
+-
+../include/my_hash.h
+/Users/unclear/Desktop/GVSU/Winter 2018/CIS 263/Hashing_Project/include/my_hash.h
+
